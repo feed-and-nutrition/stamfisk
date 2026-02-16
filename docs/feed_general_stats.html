@@ -20,6 +20,7 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -458,8 +459,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -2099,9 +2100,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
-  <link href="site_libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
-  <script src="site_libs/panelset-0.2.6/panelset.js"></script>
+  <script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+  <link href="site_libs/panelset-0.3.0/panelset.css" rel="stylesheet" />
+  <script src="site_libs/panelset-0.3.0/panelset.js"></script>
   <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
   <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -2165,6 +2166,47 @@ Feed
 <a href="feed_general_stats.html">General stats</a>
 </div>
 </div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Vitamin C
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="about_vitamin_c.html">About Vitamin C pages</a>
+<a href="vitamin_c_raw_data.html">Raw data</a>
+<a href="vitamin_c_general_stats.html">General stats</a>
+<span class="nav-dropdown-header">Phase 1</span>
+<a href="vitamin_c_broodstock_by_month.html">Broodstock by month</a>
+<a href="vitamin_c_broodstock_by_feed.html">Broodstock by feed</a>
+<span class="nav-dropdown-header">Phase 2</span>
+<a href="vitamin_c_spawning_by_month.html">Spawning by month</a>
+<a href="vitamin_c_spawning_by_feed.html">Spawning by feed</a>
+<span class="nav-dropdown-header">Phase 1 &amp; 2</span>
+<a href="vitamin_c_weight_adjusted.html">Adjusted by weight</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Vitamin D, E &amp; K
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="about_vitamin_d_e_k.html">About Vit D, E &amp; K pages</a>
+<a href="vitamin_d_e_k_raw_data.html">Raw data</a>
+<a href="vitamin_d_e_k_general_stats.html">General stats</a>
+<span class="nav-dropdown-header">Phase 1</span>
+<a href="vitamin_d_e_k_broodstock_by_month.html">Broodstock by month</a>
+<a href="vitamin_d_e_k_broodstock_by_feed.html">Broodstock by feed</a>
+<span class="nav-dropdown-header">Phase 2</span>
+<a href="vitamin_d_e_k_spawning_by_month.html">Spawning by month</a>
+<a href="vitamin_d_e_k_spawning_by_feed.html">Spawning by feed</a>
+<span class="nav-dropdown-header">Phase 1 &amp; 2</span>
+<a href="vitamin_d_e_k_weight_adjusted.html">Adjusted by weight</a>
+</div>
+</div>
+<a href="citation.html">How to cite</a>
 <a href="about.html">About</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2192,154 +2234,7 @@ Feed
 <ul>
 <li><a href="#values" id="toc-values">Values</a></li>
 </ul></li>
-<li><a href="#proximate-composition" id="toc-proximate-composition">Proximate composition</a>
-<ul>
-<li><a href="#crude-protein" id="toc-crude-protein">Crude protein</a></li>
-<li><a href="#fat" id="toc-fat">Fat</a></li>
-<li><a href="#carbohydrates" id="toc-carbohydrates">Carbohydrates</a></li>
-<li><a href="#dry-matter" id="toc-dry-matter">Dry matter</a></li>
-<li><a href="#ash" id="toc-ash">Ash</a></li>
-</ul></li>
-<li><a href="#lipids" id="toc-lipids">Lipids</a>
-<ul>
-<li><a href="#cholesterol" id="toc-cholesterol">Cholesterol</a></li>
-</ul></li>
-<li><a href="#amino-acids" id="toc-amino-acids">Amino acids</a>
-<ul>
-<li><a href="#hydroxy-proline" id="toc-hydroxy-proline">Hydroxy-Proline</a></li>
-<li><a href="#histidine" id="toc-histidine">Histidine</a></li>
-<li><a href="#taurine" id="toc-taurine">Taurine</a></li>
-<li><a href="#serine" id="toc-serine">Serine</a></li>
-<li><a href="#arginine" id="toc-arginine">Arginine</a></li>
-<li><a href="#glycine" id="toc-glycine">Glycine</a></li>
-<li><a href="#aspartic-acid" id="toc-aspartic-acid">Aspartic acid</a></li>
-<li><a href="#glutamic-acid" id="toc-glutamic-acid">Glutamic acid</a></li>
-<li><a href="#threonine" id="toc-threonine">Threonine</a></li>
-<li><a href="#alanine" id="toc-alanine">Alanine</a></li>
-<li><a href="#proline" id="toc-proline">Proline</a></li>
-<li><a href="#lysine" id="toc-lysine">Lysine</a></li>
-<li><a href="#tyrosine" id="toc-tyrosine">Tyrosine</a></li>
-<li><a href="#methionine" id="toc-methionine">Methionine</a></li>
-<li><a href="#valine" id="toc-valine">Valine</a></li>
-<li><a href="#isoleucine" id="toc-isoleucine">Isoleucine</a></li>
-<li><a href="#leucine" id="toc-leucine">Leucine</a></li>
-<li><a href="#phenylalanine" id="toc-phenylalanine">Phenylalanine</a></li>
-</ul></li>
-<li><a href="#fatty-acids" id="toc-fatty-acids">Fatty acids</a>
-<ul>
-<li><a href="#n-9" id="toc-n-9">14:1n-9</a></li>
-<li><a href="#n-9-1" id="toc-n-9-1">16:1n-9</a></li>
-<li><a href="#n-7" id="toc-n-7">16:1n-7</a></li>
-<li><a href="#n-4" id="toc-n-4">16:2n-4</a></li>
-<li><a href="#n-3" id="toc-n-3">16:3n-3</a></li>
-<li><a href="#n-11" id="toc-n-11">18:1n-11</a></li>
-<li><a href="#n-9-2" id="toc-n-9-2">18:1n-9</a></li>
-<li><a href="#n-7-1" id="toc-n-7-1">18:1n-7</a></li>
-<li><a href="#n-3-1" id="toc-n-3-1">16:4n-3</a></li>
-<li><a href="#n-6" id="toc-n-6">18:2n-6</a></li>
-<li><a href="#n-6-1" id="toc-n-6-1">18:3n-6</a></li>
-<li><a href="#n-3-2" id="toc-n-3-2">18:3n-3</a></li>
-<li><a href="#n-11-1" id="toc-n-11-1">20:1n-11</a></li>
-<li><a href="#n-9-3" id="toc-n-9-3">20:1n-9</a></li>
-<li><a href="#n-7-2" id="toc-n-7-2">20:1n-7</a></li>
-<li><a href="#n-3-3" id="toc-n-3-3">18:4n-3</a></li>
-<li><a href="#n-6-2" id="toc-n-6-2">20:2n-6</a></li>
-<li><a href="#n-9-4" id="toc-n-9-4">20:3n-9</a></li>
-<li><a href="#n-6-3" id="toc-n-6-3">20:3n-6</a></li>
-<li><a href="#n-3-4" id="toc-n-3-4">20:3n-3</a></li>
-<li><a href="#n-6-ara" id="toc-n-6-ara">20:4n-6 (ARA)</a></li>
-<li><a href="#n-11-2" id="toc-n-11-2">22:1n-11</a></li>
-<li><a href="#n-9-5" id="toc-n-9-5">22:1n-9</a></li>
-<li><a href="#n-3-5" id="toc-n-3-5">20:4n-3</a></li>
-<li><a href="#n-3-epa" id="toc-n-3-epa">20:5n-3 (EPA)</a></li>
-<li><a href="#n-6-4" id="toc-n-6-4">22:4n-6</a></li>
-<li><a href="#n-3-6" id="toc-n-3-6">21:5n-3</a></li>
-<li><a href="#n-9-6" id="toc-n-9-6">24:1n-9</a></li>
-<li><a href="#n-6-5" id="toc-n-6-5">22:5n-6</a></li>
-<li><a href="#n-3-dpa" id="toc-n-3-dpa">22:5n-3 (DPA)</a></li>
-<li><a href="#n-3-dha" id="toc-n-3-dha">22:6n-3 (DHA)</a></li>
-<li><a href="#n-3-7" id="toc-n-3-7">24:5n-3</a></li>
-<li><a href="#n-3-8" id="toc-n-3-8">24:6n-3</a></li>
-</ul></li>
-<li><a href="#fatty-acid-total" id="toc-fatty-acid-total">Fatty acid total</a>
-<ul>
-<li><a href="#sum-unidentified" id="toc-sum-unidentified">Sum unidentified</a></li>
-<li><a href="#sum-identified" id="toc-sum-identified">Sum identified</a></li>
-<li><a href="#sum-fatty-acids" id="toc-sum-fatty-acids">Sum fatty acids</a></li>
-<li><a href="#sum-saturated" id="toc-sum-saturated">Sum saturated</a></li>
-<li><a href="#sum-161" id="toc-sum-161">Sum 16:1</a></li>
-<li><a href="#sum-181" id="toc-sum-181">Sum 18:1</a></li>
-<li><a href="#sum-201" id="toc-sum-201">Sum 20:1</a></li>
-<li><a href="#sum-221" id="toc-sum-221">Sum 22:1</a></li>
-<li><a href="#sum-monounsaturated" id="toc-sum-monounsaturated">Sum monounsaturated</a></li>
-<li><a href="#sum-epa-dha" id="toc-sum-epa-dha">Sum EPA + DHA</a></li>
-<li><a href="#sum-n-3" id="toc-sum-n-3">Sum n-3</a></li>
-<li><a href="#sum-n-6" id="toc-sum-n-6">Sum n-6</a></li>
-<li><a href="#sum-polyunsaturated" id="toc-sum-polyunsaturated">Sum polyunsaturated</a></li>
-</ul></li>
-<li><a href="#fatty-acid-ratio" id="toc-fatty-acid-ratio">Fatty acid ratio</a>
-<ul>
-<li><a href="#n-6n-3" id="toc-n-6n-3">n-6/n-3</a></li>
-</ul></li>
-<li><a href="#vitamins" id="toc-vitamins">Vitamins</a>
-<ul>
-<li><a href="#biotin-b7" id="toc-biotin-b7">Biotin (B7)</a></li>
-<li><a href="#cobalamin-b12" id="toc-cobalamin-b12">Cobalamin (B12)</a></li>
-<li><a href="#folate-b9" id="toc-folate-b9">Folate (B9)</a></li>
-<li><a href="#niacin-b3" id="toc-niacin-b3">Niacin (B3)</a></li>
-<li><a href="#pantothenic-acid-b5" id="toc-pantothenic-acid-b5">Pantothenic acid (B5)</a></li>
-<li><a href="#pyridoxine-b6" id="toc-pyridoxine-b6">Pyridoxine (B6)</a></li>
-<li><a href="#riboflavin-b2" id="toc-riboflavin-b2">Riboflavin (B2)</a></li>
-<li><a href="#thiamine--hcl-b1" id="toc-thiamine--hcl-b1">Thiamine -HCl (B1)</a></li>
-<li><a href="#vitamin-c-equivalent-aae" id="toc-vitamin-c-equivalent-aae">Vitamin C equivalent (AAE)</a></li>
-<li><a href="#vitamin-d3" id="toc-vitamin-d3">Vitamin D3</a></li>
-<li><a href="#vitamin-e-alpha-tocopherol" id="toc-vitamin-e-alpha-tocopherol">Vitamin E (alpha-tocopherol)</a></li>
-<li><a href="#vitamin-e-beta--tocopherol" id="toc-vitamin-e-beta--tocopherol">Vitamin E (beta- tocopherol)</a></li>
-<li><a href="#vitamin-e-gamma--tocopherol" id="toc-vitamin-e-gamma--tocopherol">Vitamin E (gamma- tocopherol)</a></li>
-<li><a href="#vitamin-e-delta--tocopherol" id="toc-vitamin-e-delta--tocopherol">Vitamin E (delta- tocopherol)</a></li>
-<li><a href="#vitamin-e-alpha--tocotrienol" id="toc-vitamin-e-alpha--tocotrienol">Vitamin E (alpha- tocotrienol)</a></li>
-<li><a href="#vitamin-e-beta--tocotrienol" id="toc-vitamin-e-beta--tocotrienol">Vitamin E (beta- tocotrienol)</a></li>
-<li><a href="#vitamin-e-gamma--tocotrienol" id="toc-vitamin-e-gamma--tocotrienol">Vitamin E (gamma- tocotrienol)</a></li>
-<li><a href="#vitamin-e-delta--tocotrienol" id="toc-vitamin-e-delta--tocotrienol">Vitamin E (delta- tocotrienol)</a></li>
-<li><a href="#vitamin-k3-menadione" id="toc-vitamin-k3-menadione">Vitamin K3 (menadione)</a></li>
-<li><a href="#vitamin-k-sum" id="toc-vitamin-k-sum">Vitamin K (sum)</a></li>
-<li><a href="#vitamin-k1" id="toc-vitamin-k1">Vitamin K1</a></li>
-<li><a href="#ß.y-dihydro-vitamin-k1" id="toc-ß.y-dihydro-vitamin-k1">ß.Y-Dihydro vitamin K1</a></li>
-<li><a href="#vitamin-k2-mk4" id="toc-vitamin-k2-mk4">Vitamin K2 (MK4)</a></li>
-<li><a href="#vitamin-k2-mk5" id="toc-vitamin-k2-mk5">Vitamin K2 (MK5)</a></li>
-<li><a href="#vitamin-k2-mk6" id="toc-vitamin-k2-mk6">Vitamin K2 (MK6)</a></li>
-<li><a href="#vitamin-k2-mk7" id="toc-vitamin-k2-mk7">Vitamin K2 (MK7)</a></li>
-<li><a href="#vitamin-k2-mk8" id="toc-vitamin-k2-mk8">Vitamin K2 (MK8)</a></li>
-<li><a href="#vitamin-k2-mk9" id="toc-vitamin-k2-mk9">Vitamin K2 (MK9)</a></li>
-<li><a href="#vitamin-k2-mk10" id="toc-vitamin-k2-mk10">Vitamin K2 (MK10)</a></li>
-</ul></li>
-<li><a href="#minerals" id="toc-minerals">Minerals</a>
-<ul>
-<li><a href="#ca" id="toc-ca">Ca</a></li>
-<li><a href="#na" id="toc-na">Na</a></li>
-<li><a href="#k" id="toc-k">K</a></li>
-<li><a href="#mg" id="toc-mg">Mg</a></li>
-<li><a href="#p" id="toc-p">P</a></li>
-</ul></li>
-<li><a href="#trace-elements" id="toc-trace-elements">Trace elements</a>
-<ul>
-<li><a href="#iodine" id="toc-iodine">Iodine</a></li>
-<li><a href="#v" id="toc-v">V</a></li>
-<li><a href="#cr" id="toc-cr">Cr</a></li>
-<li><a href="#mn" id="toc-mn">Mn</a></li>
-<li><a href="#fe" id="toc-fe">Fe</a></li>
-<li><a href="#co" id="toc-co">Co</a></li>
-<li><a href="#ni" id="toc-ni">Ni</a></li>
-<li><a href="#cu" id="toc-cu">Cu</a></li>
-<li><a href="#zn" id="toc-zn">Zn</a></li>
-<li><a href="#as" id="toc-as">As</a></li>
-<li><a href="#se" id="toc-se">Se</a></li>
-<li><a href="#mo" id="toc-mo">Mo</a></li>
-<li><a href="#ag" id="toc-ag">Ag</a></li>
-<li><a href="#cd" id="toc-cd">Cd</a></li>
-<li><a href="#hg" id="toc-hg">Hg</a></li>
-<li><a href="#pb" id="toc-pb">Pb</a></li>
-</ul></li>
+<li><a href="#proximate-composition" id="toc-proximate-composition">Proximate composition</a></li>
 </ul>
 </nav>
 </div>
@@ -2428,11 +2323,9 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 </section>
 <hr />
+<section id="proximate-composition" class="layout-chunk" data-layout="l-body">
+<h2>Proximate composition</h2>
 <div class="layout-chunk" data-layout="l-body">
-
-<h2 id="proximate-composition">Proximate composition</h2>
-<div class="layout-chunk" data-layout="l-body">
-
 <h3 id="crude-protein">Crude protein</h3>
 <h4 id="table">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -2448,7 +2341,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-24-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-24-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb10"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2467,7 +2360,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-1">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-31-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-31-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2486,7 +2379,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-2">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-38-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-38-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb14"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2505,7 +2398,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-3">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-45-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-45-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb16"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2524,7 +2417,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-4">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-52-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-52-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb18"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2532,7 +2425,6 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb19"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <h2 id="lipids">Lipids</h2>
 <div class="layout-chunk" data-layout="l-body">
-
 <h3 id="cholesterol">Cholesterol</h3>
 <h4 id="table-5">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -2548,7 +2440,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-5">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-61-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-61-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb21"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2556,7 +2448,6 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <h2 id="amino-acids">Amino acids</h2>
 <div class="layout-chunk" data-layout="l-body">
-
 <h3 id="hydroxy-proline">Hydroxy-Proline</h3>
 <h4 id="table-6">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -2572,7 +2463,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-6">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-70-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-70-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb24"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2591,7 +2482,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-7">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-77-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-77-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb26"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2610,7 +2501,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-8">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-84-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-84-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb28"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2629,7 +2520,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-9">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-91-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-91-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb30"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2648,7 +2539,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-10">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-98-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-98-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb32"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2667,7 +2558,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-11">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-105-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-105-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb34"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2686,7 +2577,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-12">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-112-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-112-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb36"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2705,7 +2596,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-13">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-119-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-119-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb38"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2724,7 +2615,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-14">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-126-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-126-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb40"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2743,7 +2634,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-15">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-133-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-133-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb42"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2762,7 +2653,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-16">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-140-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-140-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb44"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2781,7 +2672,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-17">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-147-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-147-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb46"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2800,7 +2691,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-18">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-154-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-154-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb48"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2819,7 +2710,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-19">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-161-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-161-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb50"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2838,7 +2729,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-20">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-168-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-168-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb52"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2857,7 +2748,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-21">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-175-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-175-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb54"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2876,7 +2767,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-22">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-182-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-182-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb56"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2895,7 +2786,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-23">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-189-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-189-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb58"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2903,7 +2794,6 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb59"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <h2 id="fatty-acids">Fatty acids</h2>
 <div class="layout-chunk" data-layout="l-body">
-
 <h3 id="n-9">14:1n-9</h3>
 <h4 id="table-24">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -2919,7 +2809,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-24">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-198-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-198-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb61"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2938,7 +2828,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-25">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-205-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-205-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb63"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2957,7 +2847,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-26">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-212-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-212-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb65"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2976,7 +2866,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-27">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-219-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-219-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb67"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2995,7 +2885,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-28">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-226-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-226-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb69"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3014,7 +2904,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-29">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-233-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-233-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb71"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3033,7 +2923,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-30">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-240-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-240-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb73"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3052,7 +2942,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-31">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-247-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-247-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb75"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3071,7 +2961,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-32">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-254-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-254-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb77"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3090,7 +2980,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-33">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-261-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-261-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb79"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3109,7 +2999,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-34">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-268-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-268-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb81"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3128,7 +3018,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-35">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-275-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-275-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb83"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3147,7 +3037,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-36">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-282-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-282-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb85"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3166,7 +3056,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-37">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-289-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-289-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb87"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3185,7 +3075,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-38">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-296-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-296-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb89"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3204,7 +3094,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-39">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-303-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-303-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb91"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3223,7 +3113,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-40">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-310-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-310-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb93"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3242,7 +3132,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-41">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-317-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-317-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb95"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3261,7 +3151,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-42">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-324-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-324-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb97"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3280,7 +3170,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-43">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-331-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-331-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb99"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3299,7 +3189,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-44">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-338-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-338-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb101"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3318,7 +3208,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-45">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-345-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-345-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb103"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3337,7 +3227,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-46">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-352-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-352-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb105"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3356,7 +3246,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-47">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-359-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-359-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb107"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3375,7 +3265,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-48">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-366-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-366-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb109"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3394,7 +3284,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-49">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-373-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-373-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb111"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3413,7 +3303,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-50">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-380-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-380-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb113"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3432,7 +3322,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-51">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-387-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-387-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb115"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3451,7 +3341,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-52">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-394-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-394-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb117"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3470,7 +3360,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-53">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-401-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-401-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb119"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3489,7 +3379,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-54">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-408-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-408-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb121"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3508,7 +3398,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-55">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-415-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-415-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb123"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3527,7 +3417,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-56">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-422-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-422-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb125"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3535,7 +3425,6 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb126"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <h2 id="fatty-acid-total">Fatty acid total</h2>
 <div class="layout-chunk" data-layout="l-body">
-
 <h3 id="sum-unidentified">Sum unidentified</h3>
 <h4 id="table-57">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -3551,7 +3440,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-57">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-431-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-431-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb128"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3570,7 +3459,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-58">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-438-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-438-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb130"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3589,7 +3478,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-59">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-445-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-445-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb132"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3608,7 +3497,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-60">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-452-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-452-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb134"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3627,7 +3516,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-61">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-459-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-459-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb136"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3646,7 +3535,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-62">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-466-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-466-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb138"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3665,7 +3554,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-63">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-473-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-473-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb140"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3684,7 +3573,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-64">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-480-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-480-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb142"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3703,7 +3592,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-65">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-487-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-487-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb144"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3722,7 +3611,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-66">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-494-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-494-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb146"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3741,7 +3630,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-67">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-501-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-501-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb148"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3760,7 +3649,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-68">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-508-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-508-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb150"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3779,7 +3668,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-69">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-515-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-515-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb152"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3787,7 +3676,6 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb153"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <h2 id="fatty-acid-ratio">Fatty acid ratio</h2>
 <div class="layout-chunk" data-layout="l-body">
-
 <h3 id="n-6n-3">n-6/n-3</h3>
 <h4 id="table-70">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -3803,7 +3691,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-70">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-524-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-524-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb155"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3811,7 +3699,6 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb156"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <h2 id="vitamins">Vitamins</h2>
 <div class="layout-chunk" data-layout="l-body">
-
 <h3 id="biotin-b7">Biotin (B7)</h3>
 <h4 id="table-71">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -3827,7 +3714,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-71">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-533-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-533-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb158"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3846,7 +3733,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-72">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-540-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-540-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb160"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3865,7 +3752,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-73">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-547-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-547-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb162"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3884,7 +3771,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-74">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-554-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-554-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb164"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3903,7 +3790,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-75">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-561-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-561-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb166"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3922,7 +3809,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-76">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-568-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-568-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb168"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3941,7 +3828,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-77">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-575-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-575-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb170"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3960,7 +3847,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-78">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-582-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-582-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb172"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3979,7 +3866,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-79">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-589-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-589-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb174"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -3998,7 +3885,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-80">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-596-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-596-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb176"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4017,7 +3904,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-81">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-603-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-603-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb178"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4036,7 +3923,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-82">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-610-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-610-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb180"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4055,7 +3942,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-83">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-617-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-617-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb182"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4074,7 +3961,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-84">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-624-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-624-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb184"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4093,7 +3980,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-85">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-631-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-631-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb186"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4112,7 +3999,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-86">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-638-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-638-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb188"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4131,7 +4018,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-87">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-645-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-645-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb190"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4150,7 +4037,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-88">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-652-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-652-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb192"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4169,7 +4056,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-89">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-659-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-659-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb194"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4188,7 +4075,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-90">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-666-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-666-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb196"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4207,7 +4094,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-91">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-673-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-673-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb198"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4226,7 +4113,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-92">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-680-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-680-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb200"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4245,7 +4132,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-93">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-687-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-687-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb202"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4264,7 +4151,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-94">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-694-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-694-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb204"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4283,7 +4170,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-95">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-701-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-701-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb206"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4302,7 +4189,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-96">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-708-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-708-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb208"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4321,7 +4208,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-97">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-715-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-715-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb210"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4340,7 +4227,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-98">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-722-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-722-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb212"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4359,7 +4246,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-99">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-729-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-729-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb214"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4367,7 +4254,6 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb215"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <h2 id="minerals">Minerals</h2>
 <div class="layout-chunk" data-layout="l-body">
-
 <h3 id="ca">Ca</h3>
 <h4 id="table-100">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -4383,7 +4269,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-100">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-738-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-738-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb217"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4402,7 +4288,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-101">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-745-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-745-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb219"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4421,7 +4307,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-102">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-752-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-752-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb221"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4440,7 +4326,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-103">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-759-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-759-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb223"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4459,7 +4345,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-104">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-766-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-766-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb225"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4467,7 +4353,6 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 <div class="sourceCode" id="cb226"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <h2 id="trace-elements">Trace elements</h2>
 <div class="layout-chunk" data-layout="l-body">
-
 <h3 id="iodine">Iodine</h3>
 <h4 id="table-105">1. Table</h4>
 <div class="layout-chunk" data-layout="l-body">
@@ -4483,7 +4368,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-105">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-775-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-775-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb228"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4502,7 +4387,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-106">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-782-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-782-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb230"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4521,7 +4406,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-107">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-789-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-789-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb232"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4540,7 +4425,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-108">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-796-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-796-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb234"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4559,7 +4444,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-109">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-803-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-803-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb236"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4578,7 +4463,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-110">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-810-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-810-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb238"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4597,7 +4482,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-111">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-817-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-817-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb240"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4616,7 +4501,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-112">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-824-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-824-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb242"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4635,7 +4520,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-113">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-831-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-831-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb244"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4654,7 +4539,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-114">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-838-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-838-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb246"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4673,7 +4558,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-115">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-845-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-845-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb248"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4692,7 +4577,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-116">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-852-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-852-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb250"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4711,7 +4596,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-117">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-859-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-859-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb252"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4730,7 +4615,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-118">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-866-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-866-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb254"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4749,7 +4634,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-119">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-873-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-873-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb256"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4768,7 +4653,7 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </div>
 <h4 id="plots-120">3. Plots</h4>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-880-1.png" width="960" /></p>
+<p><img src="feed_general_stats_files/figure-html5/unnamed-chunk-880-1.png" alt="" width="960" /></p>
 </div>
 <hr>
 <div class="sourceCode" id="cb258"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -4782,6 +4667,16 @@ Moreover, the feeding trial had the following five different feeding phases.</p>
 </script>
 <div class="sourceCode" id="cb260"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <div class="sourceCode" id="cb261"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
