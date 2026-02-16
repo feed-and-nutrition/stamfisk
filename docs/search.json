@@ -1,0 +1,660 @@
+[
+  {
+    "objectID": "feed_raw_data.html#about-this-page",
+    "href": "feed_raw_data.html#about-this-page",
+    "title": "Raw data (feed types)",
+    "section": "About this page",
+    "text": "About this page\nThis page contains a raw data table with the following options:\n\nCopy: Copy the selected data to clipboard.\nDownload: Download the whole data either in “CSV” or “Excel” format.\nShow x entries: Change the number of entries (x) shown in the table where x can be one of 10, 50, 100 or all rows (All).\nSearch: Enter a search term to filter the table.\nFilter boxes: Choose an item from dropdown box to filter the table.\n\n\nFeed type and Phase\nFish were fed two different diets (Feed type), long-term feeding (LF) and short-term feeding (SF). These diets were also assigned to six different stage names (Phase), B1, B2, B3, G1, and G2, based on the time of the experiment. See Experimental design for details.\n\n\nValues\nThe Stamfisk site provides two sets of values, both of which represent measured levels of nutrients/metabolites.\n\nOrig: Original value in character type. It contains the original &lt;LOQ values.\nValue: Converted value in numeric type (double). All &lt;LOQ values are converted to numeric values using a random imputation approach (see Imputation of LOQ values for details)"
+  },
+  {
+    "objectID": "feed_raw_data.html#raw-data",
+    "href": "feed_raw_data.html#raw-data",
+    "title": "Raw data (feed types)",
+    "section": "Raw data",
+    "text": "Raw data"
+  },
+  {
+    "objectID": "vitamin_d_e_k_raw_data.html#about-this-page",
+    "href": "vitamin_d_e_k_raw_data.html#about-this-page",
+    "title": "Raw data (Vitamin D, E & K)",
+    "section": "About this page",
+    "text": "About this page\nThis page contains a raw data table with the following options:\n\nCopy: Copy the selected data to clipboard.\nDownload: Download the whole data either in “CSV” or “Excel” format.\nShow x entries: Change the number of entries (x) shown in the table where x can be one of 10, 50, 100 or all rows (All).\nSearch: Enter a search term to filter the table.\nFilter boxes: Choose an item from dropdown box to filter the table.\n\n\nValues\nThe Stamfisk site provides two sets of values, both of which represent measured levels of nutrients/metabolites.\n\nOrig: Original value in character type. It contains the original &lt;LOQ values.\nValue: Converted value in numeric type (double). All &lt;LOQ values are converted to numeric values using a random imputation approach (see Imputation of LOQ values for details)"
+  },
+  {
+    "objectID": "vitamin_d_e_k_raw_data.html#raw-data",
+    "href": "vitamin_d_e_k_raw_data.html#raw-data",
+    "title": "Raw data (Vitamin D, E & K)",
+    "section": "Raw data",
+    "text": "Raw data"
+  },
+  {
+    "objectID": "fish.html#table",
+    "href": "fish.html#table",
+    "title": "Fish",
+    "section": "Table",
+    "text": "Table"
+  },
+  {
+    "objectID": "feed_general_stats.html#about-this-page",
+    "href": "feed_general_stats.html#about-this-page",
+    "title": "General stats (feed types)",
+    "section": "About this page",
+    "text": "About this page\nThis page exhibits concentrations of various nutrients and metabolite in feed, separated into the following categories.\n\n\n\n  \n\n\n\n\nTwo feed types; long-term feeding (LF) and short-term feeding (SF), were used in the feeding trial. Moreover, the feeding trial had the following five different feeding phases.\n\n\n\n  \n\n\n\n\n\nValues\nThe Stamfisk site provides two sets of values, both of which represent measured levels of nutrients/metabolites.\n\nOrig: Original value in character type. It contains the original &lt;LOQ values.\nValue: Converted value in numeric type (double). All &lt;LOQ values are converted to numeric values using a random imputation approach (see Imputation of LOQ values for details)"
+  },
+  {
+    "objectID": "feed_general_stats.html#proximate-composition",
+    "href": "feed_general_stats.html#proximate-composition",
+    "title": "General stats (feed types)",
+    "section": "Proximate composition",
+    "text": "Proximate composition\n\nCrude protein\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    g/100g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nFat\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    g/100g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nCarbohydrates\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    g/100g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nDry matter\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    g/100g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nAsh\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    g/100g ww\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "feed_general_stats.html#lipids",
+    "href": "feed_general_stats.html#lipids",
+    "title": "General stats (feed types)",
+    "section": "Lipids",
+    "text": "Lipids\n\nCholesterol\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "feed_general_stats.html#amino-acids",
+    "href": "feed_general_stats.html#amino-acids",
+    "title": "General stats (feed types)",
+    "section": "Amino acids",
+    "text": "Amino acids\n\nHydroxy-Proline\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nHistidine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nTaurine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSerine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nArginine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nGlycine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nAspartic acid\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nGlutamic acid\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nThreonine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nAlanine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nProline\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nLysine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nTyrosine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nMethionine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nValine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nIsoleucine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nLeucine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nPhenylalanine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "feed_general_stats.html#fatty-acids",
+    "href": "feed_general_stats.html#fatty-acids",
+    "title": "General stats (feed types)",
+    "section": "Fatty acids",
+    "text": "Fatty acids\n\n14:1n-9\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n16:1n-9\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n16:1n-7\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n16:2n-4\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n16:3n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n18:1n-11\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n18:1n-9\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n18:1n-7\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n16:4n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n18:2n-6\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n18:3n-6\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n18:3n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:1n-11\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:1n-9\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:1n-7\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n18:4n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:2n-6\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:3n-9\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:3n-6\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:3n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:4n-6 (ARA)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n22:1n-11\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n22:1n-9\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:4n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n20:5n-3 (EPA)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n22:4n-6\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n21:5n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n24:1n-9\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n22:5n-6\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n22:5n-3 (DPA)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n22:6n-3 (DHA)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n24:5n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\n24:6n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "feed_general_stats.html#fatty-acid-total",
+    "href": "feed_general_stats.html#fatty-acid-total",
+    "title": "General stats (feed types)",
+    "section": "Fatty acid total",
+    "text": "Fatty acid total\n\nSum unidentified\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum identified\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum fatty acids\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum saturated\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum 16:1\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum 18:1\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum 20:1\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum 22:1\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum monounsaturated\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum EPA + DHA\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum n-6\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSum polyunsaturated\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/g ww\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "feed_general_stats.html#fatty-acid-ratio",
+    "href": "feed_general_stats.html#fatty-acid-ratio",
+    "title": "General stats (feed types)",
+    "section": "Fatty acid ratio",
+    "text": "Fatty acid ratio\n\nn-6/n-3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    -\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "feed_general_stats.html#vitamins",
+    "href": "feed_general_stats.html#vitamins",
+    "title": "General stats (feed types)",
+    "section": "Vitamins",
+    "text": "Vitamins\n\nBiotin (B7)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nCobalamin (B12)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nFolate (B9)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nNiacin (B3)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nPantothenic acid (B5)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nPyridoxine (B6)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nRiboflavin (B2)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nThiamine -HCl (B1)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin C equivalent (AAE)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin D3\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E (alpha-tocopherol)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E (beta- tocopherol)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E (gamma- tocopherol)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E (delta- tocopherol)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E (alpha- tocotrienol)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E (beta- tocotrienol)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E (gamma- tocotrienol)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E (delta- tocotrienol)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K3 (menadione)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K (sum)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K1\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nß.Y-Dihydro vitamin K1\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2 (MK4)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2 (MK5)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2 (MK6)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2 (MK7)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2 (MK8)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2 (MK9)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2 (MK10)\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    µg/kg ww\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "feed_general_stats.html#minerals",
+    "href": "feed_general_stats.html#minerals",
+    "title": "General stats (feed types)",
+    "section": "Minerals",
+    "text": "Minerals\n\nCa\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nNa\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nK\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nMg\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nP\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "feed_general_stats.html#trace-elements",
+    "href": "feed_general_stats.html#trace-elements",
+    "title": "General stats (feed types)",
+    "section": "Trace elements",
+    "text": "Trace elements\n\nIodine\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nV\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nCr\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nMn\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nFe\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nCo\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nNi\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nCu\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nZn\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nAs\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nSe\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nMo\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nAg\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nCd\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nHg\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots\n\n\n\n\n\n\n\n\n\n\n\n\nPb\n\n1. Table\n\n\n\n  \n\n\n\n\n\n2. Unit\n\n\n    mg/kg ww\n\n\n\n\n3. Plots"
+  },
+  {
+    "objectID": "weight_spawning_by_feed.html#about-this-page",
+    "href": "weight_spawning_by_feed.html#about-this-page",
+    "title": "Comparison by feeds (spawning, weights)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of spawning/offspring samples during the freshwater period, focusing on two different feed types. The two feed types are:\n\nLF: long-term feeding\nSF; short-term feeding\n\n\nStatistical analysis\n\n\n\nANOVA phase 2 feed\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “feed” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across three sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The vertical line (red, dotted) represents the average value of the three sampling points. The three sampling points are:\n\nEarly: Nov21, November 2021\nNormal: Dec21, December 2021\nLate: Feb22, February 2022\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "weight_spawning_by_feed.html#summary-table",
+    "href": "weight_spawning_by_feed.html#summary-table",
+    "title": "Comparison by feeds (spawning, weights)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "weight_spawning_by_feed.html#significant-09",
+    "href": "weight_spawning_by_feed.html#significant-09",
+    "title": "Comparison by feeds (spawning, weights)",
+    "section": "Significant (0/9)",
+    "text": "Significant (0/9)"
+  },
+  {
+    "objectID": "weight_spawning_by_feed.html#non-significant-99",
+    "href": "weight_spawning_by_feed.html#non-significant-99",
+    "title": "Comparison by feeds (spawning, weights)",
+    "section": "Non-significant (9/9)",
+    "text": "Non-significant (9/9)\n\nTissue\n\nWhole body\n\n\n\n\n\n\n\n\n\n\n\nLiver\n\n\n\n\n\n\n\n\n\n\n\nGonad\n\n\n\n\n\n\n\n\n\n\n\nMuscle\n\n\n\n\n\n\n\n\n\n\n\n\n\nEgg\n\nEgg (wet)\n\n\n\n\n\n\n\n\n\n\n\nUnfertilised egg (dry)\n\n\n\n\n\n\n\n\n\n\n\nFertilised egg (dry)\n\n\n\n\n\n\n\n\n\n\n\nSwelling\n\n\n\n\n\n\n\n\n\n\n\n\n\nOffspring\n\nAlevin"
+  },
+  {
+    "objectID": "vitamin_c_spawning_by_feed.html#about-this-page",
+    "href": "vitamin_c_spawning_by_feed.html#about-this-page",
+    "title": "Comparison by feeds (spawning, vitamin C)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of spawning/offspring samples during the freshwater period, focusing on two different feed types. The two feed types are:\n\nLF: long-term feeding\nSF; short-term feeding\n\n\nStatistical analysis\n\n\n\nANOVA phase 2 feed\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “feed” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across three sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The vertical line (red, dotted) represents the average value of the three sampling points. The three sampling points are:\n\nEarly: Nov21, November 2021\nNormal: Dec21, December 2021\nLate: Feb22, February 2022\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "vitamin_c_spawning_by_feed.html#summary-table",
+    "href": "vitamin_c_spawning_by_feed.html#summary-table",
+    "title": "Comparison by feeds (spawning, vitamin C)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "vitamin_c_spawning_by_feed.html#significant-11",
+    "href": "vitamin_c_spawning_by_feed.html#significant-11",
+    "title": "Comparison by feeds (spawning, vitamin C)",
+    "section": "Significant (1/1)",
+    "text": "Significant (1/1)\n\nVitamin C\n\nVitamin C"
+  },
+  {
+    "objectID": "vitamin_c_spawning_by_feed.html#non-significant-01",
+    "href": "vitamin_c_spawning_by_feed.html#non-significant-01",
+    "title": "Comparison by feeds (spawning, vitamin C)",
+    "section": "Non-significant (0/1)",
+    "text": "Non-significant (0/1)"
+  },
+  {
+    "objectID": "vitamin_d_e_k_spawning_by_month.html#about-this-page",
+    "href": "vitamin_d_e_k_spawning_by_month.html#about-this-page",
+    "title": "Comparison by months (spawning, vitamin D, E & K)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of spawning/offspring samples during the freshwater period, focusing on three sampling points.\n\nStatistical analysis\n\n\n\nANOVA phase 2 month\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “month” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across three sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The vertical line (red, dotted) represents the average value of the three sampling points. The three sampling points are:\n\nEarly: Nov21, November 2021\nNormal: Dec21, December 2021\nLate: Feb22, February 2022\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "vitamin_d_e_k_spawning_by_month.html#summary-table",
+    "href": "vitamin_d_e_k_spawning_by_month.html#summary-table",
+    "title": "Comparison by months (spawning, vitamin D, E & K)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "vitamin_d_e_k_spawning_by_month.html#significant-44",
+    "href": "vitamin_d_e_k_spawning_by_month.html#significant-44",
+    "title": "Comparison by months (spawning, vitamin D, E & K)",
+    "section": "Significant (4/4)",
+    "text": "Significant (4/4)\n\nVitamin D3\n\nVitamin D3\n\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E\n\nVitamin E\n\n\n\n\n\n\n\n\n\n\n\n\n\nVitramin K\n\nVitamin K1\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2"
+  },
+  {
+    "objectID": "vitamin_d_e_k_spawning_by_month.html#non-significant-04",
+    "href": "vitamin_d_e_k_spawning_by_month.html#non-significant-04",
+    "title": "Comparison by months (spawning, vitamin D, E & K)",
+    "section": "Non-significant (0/4)",
+    "text": "Non-significant (0/4)"
+  },
+  {
+    "objectID": "vitamin_d_e_k_broodstock_by_feed.html#about-this-page",
+    "href": "vitamin_d_e_k_broodstock_by_feed.html#about-this-page",
+    "title": "Comparison by feeds (broodstock, vitamin D, E & K)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of broodstock samples during the saltwater period, focusing on two different feed types. The two feed types are:\n\nLF: long-term feeding\nSF; short-term feeding\n\n\nStatistical analysis\n\n\n\nANOVA phase 1 feed\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “feed” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\nNote\nFor the month “Jan20,” we only have SF samples. Therefore, samples for Jan20 were not included in this analysis.\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels separated by LF (red) and SF (blue) across four sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The four sampling points are:\n\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "vitamin_d_e_k_broodstock_by_feed.html#summary-table",
+    "href": "vitamin_d_e_k_broodstock_by_feed.html#summary-table",
+    "title": "Comparison by feeds (broodstock, vitamin D, E & K)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "vitamin_d_e_k_broodstock_by_feed.html#significant-14",
+    "href": "vitamin_d_e_k_broodstock_by_feed.html#significant-14",
+    "title": "Comparison by feeds (broodstock, vitamin D, E & K)",
+    "section": "Significant (1/4)",
+    "text": "Significant (1/4)\n\nVitamin E\n\nVitamin E"
+  },
+  {
+    "objectID": "vitamin_d_e_k_broodstock_by_feed.html#non-significant-34",
+    "href": "vitamin_d_e_k_broodstock_by_feed.html#non-significant-34",
+    "title": "Comparison by feeds (broodstock, vitamin D, E & K)",
+    "section": "Non-significant (3/4)",
+    "text": "Non-significant (3/4)\n\nVitamin D3\n\nVitamin D3\n\n\n\n\n\n\n\n\n\n\n\n\n\nVitramin K\n\nVitamin K1\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2"
+  },
+  {
+    "objectID": "vitamin_c_general_stats.html#about-this-page",
+    "href": "vitamin_c_general_stats.html#about-this-page",
+    "title": "General stats (Vitamin C)",
+    "section": "About this page",
+    "text": "About this page\n\nStatistical analysis\nIn addition to general descriptive statistics, the page also exhibits the results from the following two ANOVA analyses.\n\nStatistical analysis on the phase 1 + spawning samples \nStatistical analysis on the phase 2 samples \n\n\n\nPage contents\nThis page is organized into multiple sections with each section being dedicated to a single nutrient or metabolite. A section contains seven sub-sections, and here’s an overview of what you’ll find in each section:\n\nNumber of samples:  A table displays the sample counts for various months and tissues.\nDescriptive statistics by tissue and month:  A table presents basic statistics (mean, SD, min, and max) of samples grouped by tissue and month. “# NA” indicates the count of samples without valid values.\nConcentration of the corresponding nutrient in feed:  A plot illustrates the concentration of the corresponding nutrient/metabolite during the saltwater period (January 2020 - June 2021). It distinguishes between long-term feeding (LF, red) and short-term feeding (SF, blue).\nBoxplots of the phase 1 + spawning samples:  Boxplots depict nutrient/metabolite levels separated by LF (red) and SF (blue) among six sampling points for various tissues. Mean values of months are connected by lines. The five sampling points from broodstock are:\n\nJan20: January 2020\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSpawning samples consist of three sampling points:\n\nNov21: November 2021 (early)\nDec21: December 2021 (normal)\nFeb22: February 2022 (late)\n\nTwo-way ANOVA using the phase 1 + spawning samples:  A table displays the results of a two-way ANOVA performed by:\n\nDependent variable: level of nutrient/metabolite\nIndependent variables: month, feed, month:feed interaction.\n\n\n\nNote\nJan20 only has SF (blue) samples; ANOVA treats the three sampling points of spawning/offspring as one group.\n\n\nBoxplots of the phase 2 samples (spawning/offspring):  Boxplots show nutrient/metabolite levels separated by LF (red) and SF (blue) among the three final sampling points for various tissues. Mean values of months are connected by lines. The final sampling points are categorized as:\n\nEarly: November 2021 (Nov21)\nNormal: December 2021 (Dec21)\nLate: February 2022 (Feb22)\n\nTwo-way ANOVA using the phase 2 samples (spawning/offspring):  A table presents the results of a two-way ANOVA performed by:\n\nDependent variable: value\nIndependent variables: month, feed, month:feed interaction.\n\nANOVA is performed exclusively on the three sampling points of spawning/offspring."
+  },
+  {
+    "objectID": "vitamin_c_general_stats.html#vitamin-c",
+    "href": "vitamin_c_general_stats.html#vitamin-c",
+    "title": "General stats (Vitamin C)",
+    "section": "Vitamin C",
+    "text": "Vitamin C\n\nVitamin C\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by tissue and month\n\n\n\n\n\n\n\n\n3. Concentration of the corresponding nutrient in feed\n\n\n\n\n\n\n\n\n\n\n\n4. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n5. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n6. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n7. Two-way ANOVA using the phase 2 samples (spawning/offspring)"
+  },
+  {
+    "objectID": "about_vitamin_d_e_k.html#about-fat-soluble-vitamin-pages",
+    "href": "about_vitamin_d_e_k.html#about-fat-soluble-vitamin-pages",
+    "title": "Fat-soluble vitamins",
+    "section": "About fat-soluble vitamin pages",
+    "text": "About fat-soluble vitamin pages\nThis site contains seven pages that provide data and statistical analyses for 4 fat-soluble vitamins.\n\nDownload raw data\nTo obtain the raw data, visit the “Raw Data” page, where you can export the data in tabular format, available in both Excel (.xlsx) and comma-separated values (.csv).\n\nRaw data\n\n\n\nOverview\nThe “General Stats” page includes descriptive statistics and the results of statistical tests for each vitamin.\n\nGeneral stats\n\n\n\nStatistical analysis for the first phase\nThe analysis for the first phase is categorized by two factors: months and feed types.\n\nComparative analysis of broodstock samples based on months\nComparative analysis of broodstock samples based on feed types\n\n\n\nStatistical analysis for the second phase\nSimilarly, the analysis for the second phase is categorized by two factors: months and feed types.\n\nComparative analysis of spawning samples based on months\nComparative analysis of spawning samples based on feed types\n\n\n\nWeight adjusted values for the first and second phases\nThe page showed the values adjusted by tissue weights.\n\nAdjusted by tissue weights"
+  },
+  {
+    "objectID": "citation.html#how-to-cite",
+    "href": "citation.html#how-to-cite",
+    "title": "Citation",
+    "section": "How to Cite",
+    "text": "How to Cite\nIf you use the data available on this website, please cite the following studies:\n\nGeneral data\n\nFjelldal, P. G., Adam, A.-C., Berge, G. M., Lein, I., Hevrøy, E. M., Næve, I., Seim, R. R., Mommens, M., Skjærven, K. H., Hansen, T., & Hamre, K. (2023).\nSpawning manipulation, broodfish diet feeding and egg production in farmed Atlantic salmon.\nAquaculture\nhttps://doi.org/10.1016/j.aquaculture.2023.740227\n\n\n\nVitamin C, E, D, and K data\n\nAdam, A.-C., Fjelldal, P. G., Hansen, T., Hevrøy, E. M., & Hamre, K. (2025).\nManipulated spawning along with an extension of the Atlantic salmon broodfish feeding period affect the vitamin C, E, D, and K status of broodfish, eggs, and first-feeding fry.\nAquaculture Nutrition, November 11.\nhttps://doi.org/10.1155/anu/8874795"
+  },
+  {
+    "objectID": "weight_general_stats.html#about-this-page",
+    "href": "weight_general_stats.html#about-this-page",
+    "title": "General stats (weights)",
+    "section": "About this page",
+    "text": "About this page\n\nStatistical analysis\nIn addition to general descriptive statistics, the page also exhibits the results from the following two ANOVA analyses.\n\nStatistical analysis on the phase 1 + spawning samples \nStatistical analysis on the phase 2 samples \n\n\n\nPage contents\nThis page is organized into multiple sections with each section being dedicated to a single tissue. A section contains six sub-sections, and here’s an overview of what you’ll find in each section:\n\nNumber of samples:  A table displays the sample counts for various months.\nDescriptive statistics by tissue and month:  A table presents basic statistics (mean, SD, min, and max) of samples grouped by month. “# NA” indicates the count of samples without valid values.\nBoxplots of the phase 1 samples (broodstock):  Boxplots depict nutrient/metabolite levels separated by LF (red) and SF (blue) among six sampling points. Mean values of months are connected by lines. The five sampling points from broodstock are:\n\nJan20: January 2020\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSpawning samples consist of three sampling points:\n\nNov21: November 2021 (early)\nDec21: December 2021 (normal)\nFeb22: February 2022 (late)\n\nTwo-way ANOVA using the phase 1 + spawning samples:  A table displays the results of a two-way ANOVA performed by:\n\nDependent variable: value (weight)\nIndependent variables: month, feed, month:feed interaction.\n\n\n\nNote\nJan20 only has SF (blue) samples; ANOVA treats the three sampling points of spawning/offspring as one group.\n\n\nBoxplots of the phase 2 samples (spawning/offspring):  Boxplots show measured weights separated by LF (red) and SF (blue) among the three final sampling points. Mean values of months are connected by lines. The final sampling points are categorized as:\n\nEarly: November 2021 (Nov21)\nNormal: December 2021 (Dec21)\nLate: February 2022 (Feb22)\n\nTwo-way ANOVA using the phase 2 samples (spawning/offspring):  A table presents the results of a two-way ANOVA performed by:\n\nDependent variable: value (weight)\nIndependent variables: month, feed, month:feed interaction.\n\nANOVA is performed exclusively on the three sampling points of spawning/offspring."
+  },
+  {
+    "objectID": "weight_general_stats.html#tissue",
+    "href": "weight_general_stats.html#tissue",
+    "title": "General stats (weights)",
+    "section": "Tissue",
+    "text": "Tissue\n\nWhole body\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)\n\n\n\n  \n\n\n\n\n\n\nLiver\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)\n\n\n\n  \n\n\n\n\n\n\nGonad\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)\n\n\n\n  \n\n\n\n\n\n\nMuscle\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)"
+  },
+  {
+    "objectID": "weight_general_stats.html#egg",
+    "href": "weight_general_stats.html#egg",
+    "title": "General stats (weights)",
+    "section": "Egg",
+    "text": "Egg\n\nEgg (wet)\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)\n\n\n\n  \n\n\n\n\n\n\nUnfertilised egg (dry)\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)\n\n\n\n  \n\n\n\n\n\n\nFertilised egg (dry)\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)\n\n\n\n  \n\n\n\n\n\n\nSwelling\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)"
+  },
+  {
+    "objectID": "weight_general_stats.html#offspring",
+    "href": "weight_general_stats.html#offspring",
+    "title": "General stats (weights)",
+    "section": "Offspring",
+    "text": "Offspring\n\nAlevin\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by month\n\n\n\n\n\n\n\n\n3. Boxplots of the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n4. Two-way ANOVA using the phase 1 + spawning samples\n\n\n[1] \"No data\"\n\n\n\n\n5. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n6. Two-way ANOVA using the phase 2 samples (spawning/offspring)"
+  },
+  {
+    "objectID": "vitamin_d_e_k_spawning_by_feed.html#about-this-page",
+    "href": "vitamin_d_e_k_spawning_by_feed.html#about-this-page",
+    "title": "Comparison by feeds (spawning, vitamin D, E & K)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of spawning/offspring samples during the freshwater period, focusing on two different feed types. The two feed types are:\n\nLF: long-term feeding\nSF; short-term feeding\n\n\nStatistical analysis\n\n\n\nANOVA phase 2 feed\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “feed” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across three sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The vertical line (red, dotted) represents the average value of the three sampling points. The three sampling points are:\n\nEarly: Nov21, November 2021\nNormal: Dec21, December 2021\nLate: Feb22, February 2022\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "vitamin_d_e_k_spawning_by_feed.html#summary-table",
+    "href": "vitamin_d_e_k_spawning_by_feed.html#summary-table",
+    "title": "Comparison by feeds (spawning, vitamin D, E & K)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "vitamin_d_e_k_spawning_by_feed.html#significant-24",
+    "href": "vitamin_d_e_k_spawning_by_feed.html#significant-24",
+    "title": "Comparison by feeds (spawning, vitamin D, E & K)",
+    "section": "Significant (2/4)",
+    "text": "Significant (2/4)\n\nVitamin E\n\nVitamin E\n\n\n\n\n\n\n\n\n\n\n\n\n\nVitramin K\n\nVitamin K1"
+  },
+  {
+    "objectID": "vitamin_d_e_k_spawning_by_feed.html#non-significant-24",
+    "href": "vitamin_d_e_k_spawning_by_feed.html#non-significant-24",
+    "title": "Comparison by feeds (spawning, vitamin D, E & K)",
+    "section": "Non-significant (2/4)",
+    "text": "Non-significant (2/4)\n\nVitamin D3\n\nVitamin D3\n\n\n\n\n\n\n\n\n\n\n\n\n\nVitramin K\n\nVitamin K2"
+  },
+  {
+    "objectID": "vitamin_d_e_k_broodstock_by_month.html#about-this-page",
+    "href": "vitamin_d_e_k_broodstock_by_month.html#about-this-page",
+    "title": "Comparison by months (broodstock, vitamin D, E & K)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of broodstock samples during the saltwater period, focusing on five sampling points.\n\nStatistical analysis\n\n\n\nANOVA phase 1 month\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “month” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\nNote\nFor the month “Jan20,” we only have SF samples. In this case, LF samples were copied from SF samples before ANOVA. Therefore, SF and LF samples are identical for Jan20.\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across five sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The boxplots connect mean values of months through lines. The five sampling points are:\n\nJan20: January 2020\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "vitamin_d_e_k_broodstock_by_month.html#summary-table",
+    "href": "vitamin_d_e_k_broodstock_by_month.html#summary-table",
+    "title": "Comparison by months (broodstock, vitamin D, E & K)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "vitamin_d_e_k_broodstock_by_month.html#significant-44",
+    "href": "vitamin_d_e_k_broodstock_by_month.html#significant-44",
+    "title": "Comparison by months (broodstock, vitamin D, E & K)",
+    "section": "Significant (4/4)",
+    "text": "Significant (4/4)\n\nVitamin D3\n\nVitamin D3\n\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin E\n\nVitamin E\n\n\n\n\n\n\n\n\n\n\n\n\n\nVitramin K\n\nVitamin K1\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2"
+  },
+  {
+    "objectID": "vitamin_d_e_k_broodstock_by_month.html#non-significant-04",
+    "href": "vitamin_d_e_k_broodstock_by_month.html#non-significant-04",
+    "title": "Comparison by months (broodstock, vitamin D, E & K)",
+    "section": "Non-significant (0/4)",
+    "text": "Non-significant (0/4)"
+  },
+  {
+    "objectID": "weight_broodstock_by_feed.html#about-this-page",
+    "href": "weight_broodstock_by_feed.html#about-this-page",
+    "title": "Comparison by feeds (broodstock, weights)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of broodstock samples during the saltwater period, focusing on two different feed types. The two feed types are:\n\nLF: long-term feeding\nSF; short-term feeding\n\n\nStatistical analysis\n\n\n\nANOVA phase 1 feed\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “feed” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\nNote\nFor the month “Jan20,” we only have SF samples. Therefore, samples for Jan20 were not included in this analysis.\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels separated by LF (red) and SF (blue) across four sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The four sampling points are:\n\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "weight_broodstock_by_feed.html#summary-table",
+    "href": "weight_broodstock_by_feed.html#summary-table",
+    "title": "Comparison by feeds (broodstock, weights)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "weight_broodstock_by_feed.html#significant-04",
+    "href": "weight_broodstock_by_feed.html#significant-04",
+    "title": "Comparison by feeds (broodstock, weights)",
+    "section": "Significant (0/4)",
+    "text": "Significant (0/4)"
+  },
+  {
+    "objectID": "weight_broodstock_by_feed.html#non-significant-44",
+    "href": "weight_broodstock_by_feed.html#non-significant-44",
+    "title": "Comparison by feeds (broodstock, weights)",
+    "section": "Non-significant (4/4)",
+    "text": "Non-significant (4/4)\n\nTissue\n\nWhole body\n\n\n\n\n\n\n\n\n\n\n\nLiver\n\n\n\n\n\n\n\n\n\n\n\nGonad\n\n\n\n\n\n\n\n\n\n\n\nMuscle"
+  },
+  {
+    "objectID": "vitamin_c_raw_data.html#about-this-page",
+    "href": "vitamin_c_raw_data.html#about-this-page",
+    "title": "Raw data (Vitamin C)",
+    "section": "About this page",
+    "text": "About this page\nThis page contains a raw data table with the following options:\n\nCopy: Copy the selected data to clipboard.\nDownload: Download the whole data either in “CSV” or “Excel” format.\nShow x entries: Change the number of entries (x) shown in the table where x can be one of 10, 50, 100 or all rows (All).\nSearch: Enter a search term to filter the table.\nFilter boxes: Choose an item from dropdown box to filter the table.\n\n\nValues\nThe Stamfisk site provides two sets of values, both of which represent measured levels of nutrients/metabolites.\n\nOrig: Original value in character type. It contains the original &lt;LOQ values.\nValue: Converted value in numeric type (double). All &lt;LOQ values are converted to numeric values using a random imputation approach (see Imputation of LOQ values for details)"
+  },
+  {
+    "objectID": "vitamin_c_raw_data.html#raw-data",
+    "href": "vitamin_c_raw_data.html#raw-data",
+    "title": "Raw data (Vitamin C)",
+    "section": "Raw data",
+    "text": "Raw data"
+  },
+  {
+    "objectID": "about_vitamin_c.html#about-water-soluble-vitamin-pages",
+    "href": "about_vitamin_c.html#about-water-soluble-vitamin-pages",
+    "title": "Vitamin C",
+    "section": "About water-soluble vitamin pages",
+    "text": "About water-soluble vitamin pages\nThis site contains seven pages that provide data and statistical analyses for Vitamin C.\n\nDownload raw data\nTo obtain the raw data, visit the “Raw Data” page, where you can export the data in tabular format, available in both Excel (.xlsx) and comma-separated values (.csv).\n\nRaw data\n\n\n\nOverview\nThe “General Stats” page includes descriptive statistics and the results of statistical tests for each vitamin.\n\nGeneral stats\n\n\n\nStatistical analysis for the first phase\nThe analysis for the first phase is categorized by two factors: months and feed types.\n\nComparative analysis of broodstock samples based on months\nComparative analysis of broodstock samples based on feed types\n\n\n\nStatistical analysis for the second phase\nSimilarly, the analysis for the second phase is categorized by two factors: months and feed types.\n\nComparative analysis of spawning samples based on months\nComparative analysis of spawning samples based on feed types\n\n\n\nWeight adjusted values for the first and second phases\nThe page showed the values adjusted by tissue weights.\n\nAdjusted by tissue weights"
+  },
+  {
+    "objectID": "vitamin_c_broodstock_by_month.html#about-this-page",
+    "href": "vitamin_c_broodstock_by_month.html#about-this-page",
+    "title": "Comparison by months (broodstock, vitamin C)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of broodstock samples during the saltwater period, focusing on five sampling points.\n\nStatistical analysis\n\n\n\nANOVA phase 1 month\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “month” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\nNote\nFor the month “Jan20,” we only have SF samples. In this case, LF samples were copied from SF samples before ANOVA. Therefore, SF and LF samples are identical for Jan20.\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across five sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The boxplots connect mean values of months through lines. The five sampling points are:\n\nJan20: January 2020\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "vitamin_c_broodstock_by_month.html#summary-table",
+    "href": "vitamin_c_broodstock_by_month.html#summary-table",
+    "title": "Comparison by months (broodstock, vitamin C)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "vitamin_c_broodstock_by_month.html#significant-11",
+    "href": "vitamin_c_broodstock_by_month.html#significant-11",
+    "title": "Comparison by months (broodstock, vitamin C)",
+    "section": "Significant (1/1)",
+    "text": "Significant (1/1)\n\nVitamin C\n\nVitamin C"
+  },
+  {
+    "objectID": "vitamin_c_broodstock_by_month.html#non-significant-01",
+    "href": "vitamin_c_broodstock_by_month.html#non-significant-01",
+    "title": "Comparison by months (broodstock, vitamin C)",
+    "section": "Non-significant (0/1)",
+    "text": "Non-significant (0/1)"
+  },
+  {
+    "objectID": "index.html#about-this-site",
+    "href": "index.html#about-this-site",
+    "title": "Stamfisk",
+    "section": "About this site",
+    "text": "About this site\nThe Stamfisk website provides valuable resources on the nutritional aspects of Atlantic salmon (Salmo salar) broodstock and their offspring, observed during an extensive feeding experiment spanning over two years. This experiment comprises two main phases: (i) the saltwater period for female broodstock fish, and (ii) the subsequent spawning in the freshwater environment, along with the early development stages of their offspring."
+  },
+  {
+    "objectID": "index.html#experimental-design",
+    "href": "index.html#experimental-design",
+    "title": "Stamfisk",
+    "section": "Experimental design",
+    "text": "Experimental design\n\nPhase 1: Saltwater period of broodstock\nThis phase involves the nutrient analysis of female brood fish during the saltwater period, with five sampling points ranging from January 2020 to June 2021.\nFish were fed two different diets: brood fish and grow-out diets until September 2020. The former group was referred to as long-term feeding (LF), while the latter was referred to as short-term feeding (SF).\n\n\n\nPhase 1: Saltwater period of broodstock\n\n\n\n\nPhase 2: Spawning and offspring in freshwater\nThe second phase includes three different spawning seasons that were artificially adjusted based on salinity, temperature, and light regimes. Spawning was advanced by one month for the early season and delayed by three months for the late season, compared to the normal season in December.\nAs the feeding groups of from the first phase were kept, Phase 2 contained six groups in total, two each for a spawning season. Sampling was performed on both broodstock and their offspring.\n\n\n\nPhase 2: Spawning and offspring in freshwater"
+  },
+  {
+    "objectID": "index.html#imputation-of-loq-values",
+    "href": "index.html#imputation-of-loq-values",
+    "title": "Stamfisk",
+    "section": "Imputation of <LOQ values",
+    "text": "Imputation of &lt;LOQ values\n\n\n\nSignificance of handling &lt;LOQ (limit of quantification) values\n\n\nVarious methods have been proposed for handling &lt;LOQ values. The choice of which imputation method to apply in a study can significantly impact its results.  At the Stamfisk site, a random sampling approach is employed when dealing with &lt;LOQ values. This involves converting the &lt;LOQ value to a random number between 0 and the LOQ. For example, if the value is “&lt;1.5”, the original values is replaced with a random value between 0 and 1.5. Furthermore, the random function is called with a fixed seed “1234” to ensure deterministic results."
+  },
+  {
+    "objectID": "index.html#site-contents",
+    "href": "index.html#site-contents",
+    "title": "Stamfisk",
+    "section": "Site contents",
+    "text": "Site contents\nThis sites offers the data and statistical analyses in the following two categories.\n\nVitamin C\nFat-soluble vitamins (vitamin D, E & K)\n\n\n\nIn addition to the four main categories above, the site also provides two additional datasets.\n\nBody weight and tissue weights\nNutritional composition of experimental diets"
+  },
+  {
+    "objectID": "vitamin_d_e_k_weight_adjusted.html#about-this-page",
+    "href": "vitamin_d_e_k_weight_adjusted.html#about-this-page",
+    "title": "Weight adjusted (Vitamin D, E & K)",
+    "section": "About this page",
+    "text": "About this page\nThis page provides tissue weight-adjusted values for various nutrients.\n\nStatistical analysis\nNo statistical analysis has been conducted on the data presented on this page.\n\n\nPage sections\nThe page is organized into two sub-sections, each featuring box plots displaying average values for eight different months, including three spawning months (Nov21, Dec21, and Feb22). Total values are calculated as the sum of measurements from three tissues: liver, muscle, and gonad.\n\nNo weight adjustment - Mean ± SD All values are measurements without weight adjustment.\nAdjusted by tissue weights - Mean ± SD All values are adjusted by the corresponding tissue weights for each individual fish."
+  },
+  {
+    "objectID": "vitamin_d_e_k_weight_adjusted.html#vitamin-d3",
+    "href": "vitamin_d_e_k_weight_adjusted.html#vitamin-d3",
+    "title": "Weight adjusted (Vitamin D, E & K)",
+    "section": "Vitamin D3",
+    "text": "Vitamin D3\n\nVitamin D3\n\n1. No weight adjustment - Mean ± SD\n\n\n\n\n\n\n\n\n\n\n\n2. Adjusted by tissue weights - Mean ± SD"
+  },
+  {
+    "objectID": "vitamin_d_e_k_weight_adjusted.html#vitamin-e",
+    "href": "vitamin_d_e_k_weight_adjusted.html#vitamin-e",
+    "title": "Weight adjusted (Vitamin D, E & K)",
+    "section": "Vitamin E",
+    "text": "Vitamin E\n\nVitamin E\n\n1. No weight adjustment - Mean ± SD\n\n\n\n\n\n\n\n\n\n\n\n2. Adjusted by tissue weights - Mean ± SD"
+  },
+  {
+    "objectID": "vitamin_d_e_k_weight_adjusted.html#vitramin-k",
+    "href": "vitamin_d_e_k_weight_adjusted.html#vitramin-k",
+    "title": "Weight adjusted (Vitamin D, E & K)",
+    "section": "Vitramin K",
+    "text": "Vitramin K\n\nVitamin K1\n\n1. No weight adjustment - Mean ± SD\n\n\n\n\n\n\n\n\n\n\n\n2. Adjusted by tissue weights - Mean ± SD\n\n\n\n\n\n\n\n\n\n\n\n\nVitamin K2\n\n1. No weight adjustment - Mean ± SD\n\n\n\n\n\n\n\n\n\n\n\n2. Adjusted by tissue weights - Mean ± SD"
+  },
+  {
+    "objectID": "about.html#project",
+    "href": "about.html#project",
+    "title": "Main Document Title",
+    "section": "Project",
+    "text": "Project\n\nName: Stamfiskernæring i norsk lakseproduksjon\nThis project was funded by Fiskeri- og havbruksnæringens forskningsfinansiering (FHF) under the project No: 901570."
+  },
+  {
+    "objectID": "about.html#project-organization-rolesresponsibilities",
+    "href": "about.html#project-organization-rolesresponsibilities",
+    "title": "Main Document Title",
+    "section": "Project organization (roles/responsibilities)",
+    "text": "Project organization (roles/responsibilities)\n\nInstitute of Marine Research\n\nKristin Hamre (Project leader, Fat-soluble vitamins and vitamin C)\nKaja Skjærven (Deputy leader, Free amino acids and B vitamins)\nAnne Catrin Adam (Practical organization, Fat-soluble vitamins and vitamin C)\nPer Gunnar Fjelldal (Fish experiment, Minerals)\nTom Johnny Hansen (Fish experiment)\nMarit Espe (Protein and protein-bound amino acids, Free amino acids)\nEystein Oveland (B vitamins)\nAntony Philips (Minerals, Moved to Nofima in September 2023)\nNini Sissener (Cholesterol)\nElizabeth Fonnes (Technical responsible)\nMaren Hoff Austgulen, Audun Pedersen, and Linda Neset (Key technicians)\nTakaya Saito (Web site development and maintenance)\n\n\n\nNofima\n\nGerd Marit Berge (Nofima project leader)\nIngrid Lein\nTrine Ytrestøyl\nBente Reuter\n\n\n\nMowi\n\nErnst Morten Hevrøy (Mowi project leader. Organization of feed production and delivery of smolt)\n\n\n\nBenchmark Genetics\n\nRudi Ripman Seim (Benchmark Genetics project leader)\n\n\n\nAquagen\n\nMaren Mommens (Aquagen project leader)\nIngun Næve (Ultrasound in the sorting of maturing fish)\n\n\n\nReference group\n\nTor Eirik Homme (Grieg Seafood)\nSynne Andersen/Sigurd Tonheim (Cargill)\nPetter Arnesen (Norsk Industri)\nGrethe Rosenlund/Thea Morken/Ida Martinsen (Skretting)"
+  },
+  {
+    "objectID": "vitamin_c_broodstock_by_feed.html#about-this-page",
+    "href": "vitamin_c_broodstock_by_feed.html#about-this-page",
+    "title": "Comparison by feeds (broodstock, vitamin C)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of broodstock samples during the saltwater period, focusing on two different feed types. The two feed types are:\n\nLF: long-term feeding\nSF; short-term feeding\n\n\nStatistical analysis\n\n\n\nANOVA phase 1 feed\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “feed” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\nNote\nFor the month “Jan20,” we only have SF samples. Therefore, samples for Jan20 were not included in this analysis.\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels separated by LF (red) and SF (blue) across four sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The four sampling points are:\n\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "vitamin_c_broodstock_by_feed.html#summary-table",
+    "href": "vitamin_c_broodstock_by_feed.html#summary-table",
+    "title": "Comparison by feeds (broodstock, vitamin C)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "vitamin_c_broodstock_by_feed.html#significant-11",
+    "href": "vitamin_c_broodstock_by_feed.html#significant-11",
+    "title": "Comparison by feeds (broodstock, vitamin C)",
+    "section": "Significant (1/1)",
+    "text": "Significant (1/1)\n\nVitamin C\n\nVitamin C"
+  },
+  {
+    "objectID": "vitamin_c_broodstock_by_feed.html#non-significant-01",
+    "href": "vitamin_c_broodstock_by_feed.html#non-significant-01",
+    "title": "Comparison by feeds (broodstock, vitamin C)",
+    "section": "Non-significant (0/1)",
+    "text": "Non-significant (0/1)"
+  },
+  {
+    "objectID": "weight_broodstock_by_month.html#about-this-page",
+    "href": "weight_broodstock_by_month.html#about-this-page",
+    "title": "Comparison by months (broodstock, weights)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of broodstock samples during the saltwater period, focusing on five sampling points.\n\nStatistical analysis\n\n\n\nANOVA phase 1 month\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “month” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\nNote\nFor the month “Jan20,” we only have SF samples. In this case, LF samples were copied from SF samples before ANOVA. Therefore, SF and LF samples are identical for Jan20.\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across five sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The boxplots connect mean values of months through lines. The five sampling points are:\n\nJan20: January 2020\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "weight_broodstock_by_month.html#summary-table",
+    "href": "weight_broodstock_by_month.html#summary-table",
+    "title": "Comparison by months (broodstock, weights)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "weight_broodstock_by_month.html#significant-44",
+    "href": "weight_broodstock_by_month.html#significant-44",
+    "title": "Comparison by months (broodstock, weights)",
+    "section": "Significant (4/4)",
+    "text": "Significant (4/4)\n\nTissue\n\nWhole body\n\n\n\n\n\n\n\n\n\n\n\nLiver\n\n\n\n\n\n\n\n\n\n\n\nGonad\n\n\n\n\n\n\n\n\n\n\n\nMuscle"
+  },
+  {
+    "objectID": "weight_broodstock_by_month.html#non-significant-04",
+    "href": "weight_broodstock_by_month.html#non-significant-04",
+    "title": "Comparison by months (broodstock, weights)",
+    "section": "Non-significant (0/4)",
+    "text": "Non-significant (0/4)"
+  },
+  {
+    "objectID": "vitamin_c_weight_adjusted.html#about-this-page",
+    "href": "vitamin_c_weight_adjusted.html#about-this-page",
+    "title": "Weight adjusted (Vitamin C)",
+    "section": "About this page",
+    "text": "About this page\nThis page provides tissue weight-adjusted values for various nutrients.\n\nStatistical analysis\nNo statistical analysis has been conducted on the data presented on this page.\n\n\nPage sections\nThe page is organized into two sub-sections, each featuring box plots displaying average values for eight different months, including three spawning months (Nov21, Dec21, and Feb22). Total values are calculated as the sum of measurements from three tissues: liver, muscle, and gonad.\n\nNo weight adjustment - Mean ± SD All values are measurements without weight adjustment.\nAdjusted by tissue weights - Mean ± SD All values are adjusted by the corresponding tissue weights for each individual fish."
+  },
+  {
+    "objectID": "vitamin_c_weight_adjusted.html#vitamin-c",
+    "href": "vitamin_c_weight_adjusted.html#vitamin-c",
+    "title": "Weight adjusted (Vitamin C)",
+    "section": "Vitamin C",
+    "text": "Vitamin C\n\nVitamin C\n\n1. No weight adjustment - Mean ± SD\n\n\n\n\n\n\n\n\n\n\n\n2. Adjusted by tissue weights - Mean ± SD"
+  },
+  {
+    "objectID": "weight_spawning_by_month.html#about-this-page",
+    "href": "weight_spawning_by_month.html#about-this-page",
+    "title": "Comparison by months (spawning, weights)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of spawning/offspring samples during the freshwater period, focusing on three sampling points.\n\nStatistical analysis\n\n\n\nANOVA phase 2 month\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “month” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across three sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The vertical line (red, dotted) represents the average value of the three sampling points. The three sampling points are:\n\nEarly: Nov21, November 2021\nNormal: Dec21, December 2021\nLate: Feb22, February 2022\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "weight_spawning_by_month.html#summary-table",
+    "href": "weight_spawning_by_month.html#summary-table",
+    "title": "Comparison by months (spawning, weights)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "weight_spawning_by_month.html#significant-89",
+    "href": "weight_spawning_by_month.html#significant-89",
+    "title": "Comparison by months (spawning, weights)",
+    "section": "Significant (8/9)",
+    "text": "Significant (8/9)\n\nTissue\n\nLiver\n\n\n\n\n\n\n\n\n\n\n\nGonad\n\n\n\n\n\n\n\n\n\n\n\nMuscle\n\n\n\n\n\n\n\n\n\n\n\n\n\nEgg\n\nEgg (wet)\n\n\n\n\n\n\n\n\n\n\n\nUnfertilised egg (dry)\n\n\n\n\n\n\n\n\n\n\n\nFertilised egg (dry)\n\n\n\n\n\n\n\n\n\n\n\nSwelling\n\n\n\n\n\n\n\n\n\n\n\n\n\nOffspring\n\nAlevin"
+  },
+  {
+    "objectID": "weight_spawning_by_month.html#non-significant-19",
+    "href": "weight_spawning_by_month.html#non-significant-19",
+    "title": "Comparison by months (spawning, weights)",
+    "section": "Non-significant (1/9)",
+    "text": "Non-significant (1/9)\n\nTissue\n\nWhole body"
+  },
+  {
+    "objectID": "vitamin_c_spawning_by_month.html#about-this-page",
+    "href": "vitamin_c_spawning_by_month.html#about-this-page",
+    "title": "Comparison by months (spawning, vitamin C)",
+    "section": "About this page",
+    "text": "About this page\nThis page presents the findings from our analysis of spawning/offspring samples during the freshwater period, focusing on three sampling points.\n\nStatistical analysis\n\n\n\nANOVA phase 2 month\n\n\nTwo-way ANOVA was performed for each nutrient/metabolite by:\n\nDependent variable: level of nutrient/metabolite.\nIndependent variables: month and feed.\n\nOnly p-values calculated from the “month” factor were used in this analysis. The significance level is represented throughout the page as follows:\n\nNS: non-significance\n*: significant (p-value &lt; 0.05)\n**: highly significant (p-value &lt; 0.01)\n***: very highly significant (p-value &lt; 0.001)\n\n\n\nPage sections\nThis page is organized with three sub-sections.\n\nSummary table:  A table displays the sample counts of ANOVA results categorized into four significance levels: NS, *,**, and ***.\nSignificant:  The boxplots visually represent nutrient/metabolite levels across three sampling points. These boxplots are only displayed when at least one comparison is identified as significant. The vertical line (red, dotted) represents the average value of the three sampling points. The three sampling points are:\n\nEarly: Nov21, November 2021\nNormal: Dec21, December 2021\nLate: Feb22, February 2022\n\nSignificance levels are indicated next to the tissue name within parentheses at the top of each boxplot.\nNon-significant:  This section displays boxplots for the nutrients/metabolites that did not yield any significant outcomes. Essentially, the format is the same as that of the Significant section."
+  },
+  {
+    "objectID": "vitamin_c_spawning_by_month.html#summary-table",
+    "href": "vitamin_c_spawning_by_month.html#summary-table",
+    "title": "Comparison by months (spawning, vitamin C)",
+    "section": "Summary table",
+    "text": "Summary table"
+  },
+  {
+    "objectID": "vitamin_c_spawning_by_month.html#significant-11",
+    "href": "vitamin_c_spawning_by_month.html#significant-11",
+    "title": "Comparison by months (spawning, vitamin C)",
+    "section": "Significant (1/1)",
+    "text": "Significant (1/1)\n\nVitamin C\n\nVitamin C"
+  },
+  {
+    "objectID": "vitamin_c_spawning_by_month.html#non-significant-01",
+    "href": "vitamin_c_spawning_by_month.html#non-significant-01",
+    "title": "Comparison by months (spawning, vitamin C)",
+    "section": "Non-significant (0/1)",
+    "text": "Non-significant (0/1)"
+  },
+  {
+    "objectID": "vitamin_d_e_k_general_stats.html#about-this-page",
+    "href": "vitamin_d_e_k_general_stats.html#about-this-page",
+    "title": "General stats (Vit D, E & K)",
+    "section": "About this page",
+    "text": "About this page\n\nStatistical analysis\nIn addition to general descriptive statistics, the page also exhibits the results from the following two ANOVA analyses.\n\nStatistical analysis on the phase 1 + spawning samples \nStatistical analysis on the phase 2 samples \n\n\n\nPage contents\nThis page is organized into multiple sections with each section being dedicated to a single nutrient or metabolite. A section contains seven sub-sections, and here’s an overview of what you’ll find in each section:\n\nNumber of samples:  A table displays the sample counts for various months and tissues.\nDescriptive statistics by tissue and month:  A table presents basic statistics (mean, SD, min, and max) of samples grouped by tissue and month. “# NA” indicates the count of samples without valid values.\nConcentration of the corresponding nutrient in feed:  A plot illustrates the concentration of the corresponding nutrient/metabolite during the saltwater period (January 2020 - June 2021). It distinguishes between long-term feeding (LF, red) and short-term feeding (SF, blue).\nBoxplots of the phase 1 + spawning samples:  Boxplots depict nutrient/metabolite levels separated by LF (red) and SF (blue) among six sampling points for various tissues. Mean values of months are connected by lines. The five sampling points from broodstock are:\n\nJan20: January 2020\nMay20: May 2020\nSep20: September 2020\nJan21: January 2021\nJun21: June 2021\n\nSpawning samples consist of three sampling points:\n\nNov21: November 2021 (early)\nDec21: December 2021 (normal)\nFeb22: February 2022 (late)\n\nTwo-way ANOVA using the phase 1 + spawning samples:  A table displays the results of a two-way ANOVA performed by:\n\nDependent variable: level of nutrient/metabolite\nIndependent variables: month, feed, month:feed interaction.\n\n\n\nNote\nJan20 only has SF (blue) samples; ANOVA treats the three sampling points of spawning/offspring as one group.\n\n\nBoxplots of the phase 2 samples (spawning/offspring):  Boxplots show nutrient/metabolite levels separated by LF (red) and SF (blue) among the three final sampling points for various tissues. Mean values of months are connected by lines. The final sampling points are categorized as:\n\nEarly: November 2021 (Nov21)\nNormal: December 2021 (Dec21)\nLate: February 2022 (Feb22)\n\nTwo-way ANOVA using the phase 2 samples (spawning/offspring):  A table presents the results of a two-way ANOVA performed by:\n\nDependent variable: value\nIndependent variables: month, feed, month:feed interaction.\n\nANOVA is performed exclusively on the three sampling points of spawning/offspring."
+  },
+  {
+    "objectID": "vitamin_d_e_k_general_stats.html#vitamin-d3",
+    "href": "vitamin_d_e_k_general_stats.html#vitamin-d3",
+    "title": "General stats (Vit D, E & K)",
+    "section": "Vitamin D3",
+    "text": "Vitamin D3\n\nVitamin D3\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by tissue and month\n\n\n\n\n\n\n\n\n3. Concentration of the corresponding nutrient in feed\n\n\n\n\n\n\n\n\n\n\n\n4. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n5. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n6. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n7. Two-way ANOVA using the phase 2 samples (spawning/offspring)"
+  },
+  {
+    "objectID": "vitamin_d_e_k_general_stats.html#vitamin-e",
+    "href": "vitamin_d_e_k_general_stats.html#vitamin-e",
+    "title": "General stats (Vit D, E & K)",
+    "section": "Vitamin E",
+    "text": "Vitamin E\n\nVitamin E\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by tissue and month\n\n\n\n\n\n\n\n\n3. Concentration of the corresponding nutrient in feed\n\n\n\n\n\n\n\n\n\n\n\n4. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n5. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n6. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n7. Two-way ANOVA using the phase 2 samples (spawning/offspring)"
+  },
+  {
+    "objectID": "vitamin_d_e_k_general_stats.html#vitramin-k",
+    "href": "vitamin_d_e_k_general_stats.html#vitramin-k",
+    "title": "General stats (Vit D, E & K)",
+    "section": "Vitramin K",
+    "text": "Vitramin K\n\nVitamin K1\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by tissue and month\n\n\n\n\n\n\n\n\n3. Concentration of the corresponding nutrient in feed\n\n\n\n\n\n\n\n\n\n\n\n4. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n5. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n6. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n7. Two-way ANOVA using the phase 2 samples (spawning/offspring)\n\n\n\n  \n\n\n\n\n\n\nVitamin K2\n\n1. Number of samples\n\n\n\n  \n\n\n\n\n\n2. Descriptive statistics by tissue and month\n\n\n\n\n\n\n\n\n3. Concentration of the corresponding nutrient in feed\n\n\n\n\n\n\n\n\n\n\n\n4. Boxplots of the phase 1 + spawning samples\n\n\n\n\n\n\n\n\n\n\n\n5. Two-way ANOVA using the phase 1 + spawning samples\n\n\n\n  \n\n\n\n\n\n6. Boxplots of the phase 2 samples (spawning/offspring)\n\n\n\n\n\n\n\n\n\n\n\n7. Two-way ANOVA using the phase 2 samples (spawning/offspring)"
+  },
+  {
+    "objectID": "weight_raw_data.html#about-this-page",
+    "href": "weight_raw_data.html#about-this-page",
+    "title": "Raw data (weights)",
+    "section": "About this page",
+    "text": "About this page\nThis page contains a raw data table with the following options:\n\nCopy: Copy the selected data to clipboard.\nDownload: Download the whole data either in “CSV” or “Excel” format.\nShow x entries: Change the number of entries (x) shown in the table where x can be one of 10, 50, 100 or all rows (All).\nSearch: Enter a search term to filter the table.\nFilter boxes: Choose an item from dropdown box to filter the table.\n\n\nValues\nThe Stamfisk site provides two sets of values, both of which represent measured levels of nutrients/metabolites.\n\nOrig: Original value in character type. It contains the original &lt;LOQ values.\nValue: Converted value in numeric type (double). All &lt;LOQ values are converted to numeric values using a random imputation approach (see Imputation of LOQ values for details)"
+  },
+  {
+    "objectID": "weight_raw_data.html#raw-data",
+    "href": "weight_raw_data.html#raw-data",
+    "title": "Raw data (weights)",
+    "section": "Raw data",
+    "text": "Raw data"
+  },
+  {
+    "objectID": "about_weight.html#about-weight-data-pages",
+    "href": "about_weight.html#about-weight-data-pages",
+    "title": "Weight data",
+    "section": "About weight data pages",
+    "text": "About weight data pages\nThis site contains six pages that provide data and statistical analyses for the weight data.\n\nDownload raw data\nTo obtain the raw data, visit the “Raw Data” page, where you can export the data in tabular format, available in both Excel (.xlsx) and comma-separated values (.csv).\n\nRaw data\n\n\n\nOverview\nThe “General Stats” page includes descriptive statistics and the results of statistical tests for the weight data.\n\nGeneral stats\n\n\n\nStatistical analysis for the first phase\nThe analysis for the first phase is categorized by two factors: months and feed types.\n\nComparative analysis of broodstock samples based on months\nComparative analysis of broodstock samples based on feed types\n\n\n\nStatistical analysis for the second phase\nSimilarly, the analysis for the second phase is categorized by two factors: months and feed types.\n\nComparative analysis of spawning samples based on months\nComparative analysis of spawning samples based on feed types"
+  },
+  {
+    "objectID": "about_feed.html#about-feed-pages",
+    "href": "about_feed.html#about-feed-pages",
+    "title": "Experimental diets",
+    "section": "About feed pages",
+    "text": "About feed pages\nThis site contains two pages that provide data and descriptive statistics for the experimental diets.\n\nDownload raw data\nTo obtain the raw data, visit the “Raw Data” page, where you can export the data in tabular format, available in both Excel (.xlsx) and comma-separated values (.csv).\n\nRaw data\n\n\n\nOverview\nThe “General Stats” page includes descriptive statistics for the experimental diets.\n\nGeneral stats"
+  }
+]
