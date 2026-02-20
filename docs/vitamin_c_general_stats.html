@@ -352,6 +352,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This page is organized into multiple sections with each section being dedicated to a single nutrient or metabolite. A section contains seven sub-sections, and here’s an overview of what you’ll find in each section:</p>
 <ol type="1">
 <li><p><strong>Number of samples: </strong> A table displays the sample counts for various months and tissues.</p></li>
+<li><p><strong>Unit: </strong> The unit of measurement.</p></li>
 <li><p><strong>Descriptive statistics by tissue and month: </strong> A table presents basic statistics (mean, SD, min, and max) of samples grouped by tissue and month. “# NA” indicates the count of samples without valid values.</p></li>
 <li><p><strong>Concentration of the corresponding nutrient in feed: </strong> A plot illustrates the concentration of the corresponding nutrient/metabolite during the saltwater period (January 2020 - June 2021). It distinguishes between long-term feeding (LF, red) and short-term feeding (SF, blue).</p></li>
 <li><p><strong>Boxplots of the phase 1 + spawning samples: </strong> Boxplots depict nutrient/metabolite levels separated by LF (red) and SF (blue) among six sampling points for various tissues. Mean values of months are connected by lines. The five sampling points from broodstock are:</p>
@@ -378,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Note</strong></p>
 <p>Jan20 only has SF (blue) samples; ANOVA treats the three sampling points of spawning/offspring as one group.</p>
 </blockquote>
-<ol start="6" type="1">
+<ol start="7" type="1">
 <li><p><strong>Boxplots of the phase 2 samples (spawning/offspring): </strong> Boxplots show nutrient/metabolite levels separated by LF (red) and SF (blue) among the three final sampling points for various tissues. Mean values of months are connected by lines. The final sampling points are categorized as:</p>
 <ul>
 <li>Early: November 2021 (Nov21)</li>
@@ -411,29 +412,25 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
+<section id="unit" class="level4">
+<h4 class="anchored" data-anchor-id="unit">2. Unit</h4>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>    mg/kg ww</code></pre>
+</div>
+</div>
+</section>
 <section id="descriptive-statistics-by-tissue-and-month" class="level4">
-<h4 class="anchored" data-anchor-id="descriptive-statistics-by-tissue-and-month">2. Descriptive statistics by tissue and month</h4>
+<h4 class="anchored" data-anchor-id="descriptive-statistics-by-tissue-and-month">3. Descriptive statistics by tissue and month</h4>
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-d2648dc8b5225cbeb224" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-d2648dc8b5225cbeb224">{"x":{"filter":"none","vertical":false,"data":[["Liver","Liver","Liver","Liver","Liver","Liver","Liver","Liver","Muscle","Muscle","Muscle","Muscle","Muscle","Muscle","Muscle","Muscle","Gonad","Gonad","Gonad","Gonad","Gonad","Unfertilised egg","Unfertilised egg","Unfertilised egg","Eye stage","Eye stage","Eye stage","Alevin","Alevin","Alevin"],["Jan20","May20","Sep20","Jan21","Jun21","Nov21","Dec21","Feb22","Jan20","May20","Sep20","Jan21","Jun21","Nov21","Dec21","Feb22","Jan20","May20","Sep20","Jan21","Jun21","Nov21","Dec21","Feb22","Nov21","Dec21","Feb22","Nov21","Dec21","Feb22"],[6,12,12,12,12,21,24,24,6,12,12,12,12,21,24,24,6,12,12,12,12,21,24,24,21,24,24,21,24,24],[141.667,146.667,198.333,226.917,153.333,93.619,146.125,136.292,26.167,26.833,51.333,58.417,64.167,7.419,5.404,5.171,null,null,null,652.857,462.5,172.857,173.75,141.667,130.333,133.333,111.957,53.714,64.208,53.792],[11.69,27.743,32.983,49.539,14.975,24.917,34.039,38.701,7.731,8.59,38.194,12.428,11.496,2.429,1.501,1.314,null,null,null,84.40300000000001,104.37,22.615,22.996,19.486,16.258,19.035,17.989,5.883,8.022,7.425],[130,110,160,83,120,53,97,76,16,15,30,47,47,4.6,3.8,3.7,null,null,null,560,260,120,140,120,97,100,87,40,52,44],[160,200,260,270,170,160,230,220,38,42,170,91,86,14,9.699999999999999,9.199999999999999,null,null,null,770,630,220,220,190,160,170,160,69,79,76],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,12,12,5,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Tissue<\/th>\n      <th>Month<\/th>\n      <th>n<\/th>\n      <th>Mean<\/th>\n      <th>SD<\/th>\n      <th>Min<\/th>\n      <th>Max<\/th>\n      <th># NAs<\/th>\n      <th># &lt;LOQs<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[2,3,4,5,6,7,8]},{"name":"Tissue","targets":0},{"name":"Month","targets":1},{"name":"n","targets":2},{"name":"Mean","targets":3},{"name":"SD","targets":4},{"name":"Min","targets":5},{"name":"Max","targets":6},{"name":"# NAs","targets":7},{"name":"# <LOQs","targets":8}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-bbd3af2e2e3c88aa93fe" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-bbd3af2e2e3c88aa93fe">{"x":{"filter":"none","vertical":false,"data":[["Liver","Liver","Liver","Liver","Liver","Liver","Liver","Liver","Muscle","Muscle","Muscle","Muscle","Muscle","Muscle","Muscle","Muscle","Gonad","Gonad","Gonad","Gonad","Gonad","Unfertilised egg","Unfertilised egg","Unfertilised egg","Eye stage","Eye stage","Eye stage","Alevin","Alevin","Alevin"],["Jan20","May20","Sep20","Jan21","Jun21","Nov21","Dec21","Feb22","Jan20","May20","Sep20","Jan21","Jun21","Nov21","Dec21","Feb22","Jan20","May20","Sep20","Jan21","Jun21","Nov21","Dec21","Feb22","Nov21","Dec21","Feb22","Nov21","Dec21","Feb22"],[6,12,12,12,12,21,24,24,6,12,12,12,12,21,24,24,6,12,12,12,12,21,24,24,21,24,24,21,24,24],[141.667,146.667,198.333,226.917,153.333,93.619,146.125,136.292,26.167,26.833,51.333,58.417,64.167,7.419,5.404,5.171,null,null,null,652.857,462.5,172.857,173.75,141.667,130.333,133.333,111.957,53.714,64.208,53.792],[11.69,27.743,32.983,49.539,14.975,24.917,34.039,38.701,7.731,8.59,38.194,12.428,11.496,2.429,1.501,1.314,null,null,null,84.40300000000001,104.37,22.615,22.996,19.486,16.258,19.035,17.989,5.883,8.022,7.425],[130,110,160,83,120,53,97,76,16,15,30,47,47,4.6,3.8,3.7,null,null,null,560,260,120,140,120,97,100,87,40,52,44],[160,200,260,270,170,160,230,220,38,42,170,91,86,14,9.699999999999999,9.199999999999999,null,null,null,770,630,220,220,190,160,170,160,69,79,76],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,12,12,5,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Tissue<\/th>\n      <th>Month<\/th>\n      <th>n<\/th>\n      <th>Mean<\/th>\n      <th>SD<\/th>\n      <th>Min<\/th>\n      <th>Max<\/th>\n      <th># NAs<\/th>\n      <th># &lt;LOQs<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[2,3,4,5,6,7,8]},{"name":"Tissue","targets":0},{"name":"Month","targets":1},{"name":"n","targets":2},{"name":"Mean","targets":3},{"name":"SD","targets":4},{"name":"Min","targets":5},{"name":"Max","targets":6},{"name":"# NAs","targets":7},{"name":"# <LOQs","targets":8}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
 <section id="concentration-of-the-corresponding-nutrient-in-feed" class="level4">
-<h4 class="anchored" data-anchor-id="concentration-of-the-corresponding-nutrient-in-feed">3. Concentration of the corresponding nutrient in feed</h4>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="vitamin_c_general_stats_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="boxplots-of-the-phase-1-spawning-samples" class="level4">
-<h4 class="anchored" data-anchor-id="boxplots-of-the-phase-1-spawning-samples">4. Boxplots of the phase 1 + spawning samples</h4>
+<h4 class="anchored" data-anchor-id="concentration-of-the-corresponding-nutrient-in-feed">4. Concentration of the corresponding nutrient in feed</h4>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -444,8 +441,20 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
+<section id="boxplots-of-the-phase-1-spawning-samples" class="level4">
+<h4 class="anchored" data-anchor-id="boxplots-of-the-phase-1-spawning-samples">5. Boxplots of the phase 1 + spawning samples</h4>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="vitamin_c_general_stats_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
 <section id="two-way-anova-using-the-phase-1-spawning-samples" class="level4">
-<h4 class="anchored" data-anchor-id="two-way-anova-using-the-phase-1-spawning-samples">5. Two-way ANOVA using the phase 1 + spawning samples</h4>
+<h4 class="anchored" data-anchor-id="two-way-anova-using-the-phase-1-spawning-samples">6. Two-way ANOVA using the phase 1 + spawning samples</h4>
 <div class="cell">
 <div class="cell-output-display">
 <div data-pagedtable="false">
@@ -457,19 +466,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <section id="boxplots-of-the-phase-2-samples-spawningoffspring" class="level4">
-<h4 class="anchored" data-anchor-id="boxplots-of-the-phase-2-samples-spawningoffspring">6. Boxplots of the phase 2 samples (spawning/offspring)</h4>
+<h4 class="anchored" data-anchor-id="boxplots-of-the-phase-2-samples-spawningoffspring">7. Boxplots of the phase 2 samples (spawning/offspring)</h4>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="vitamin_c_general_stats_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="vitamin_c_general_stats_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
 </section>
 <section id="two-way-anova-using-the-phase-2-samples-spawningoffspring" class="level4">
-<h4 class="anchored" data-anchor-id="two-way-anova-using-the-phase-2-samples-spawningoffspring">7. Two-way ANOVA using the phase 2 samples (spawning/offspring)</h4>
+<h4 class="anchored" data-anchor-id="two-way-anova-using-the-phase-2-samples-spawningoffspring">8. Two-way ANOVA using the phase 2 samples (spawning/offspring)</h4>
 <div class="cell">
 <div class="cell-output-display">
 <div data-pagedtable="false">
