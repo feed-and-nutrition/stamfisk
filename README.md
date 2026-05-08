@@ -1,6 +1,6 @@
 # Stamfisk
 
-[![DOI](https://zenodo.org/badge/722204801.svg)](https://doi.org/10.5281/zenodo.10200496)
+[![DOI](https://zenodo.org/badge/1154611763.svg)](https://doi.org/10.5281/zenodo.20088730)
 
 A comprehensive nutritional data repository of Atlantic salmon broodstock.
 
